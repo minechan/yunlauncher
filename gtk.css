@@ -1,0 +1,68 @@
+window {
+	background-color: transparent;
+}
+
+window > decoration {
+	margin: 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 8px;
+	border: rgba(0, 0, 0, 0.5) solid 1px;
+	box-shadow: rgba(255, 255, 255, 0.5) 1 1 0 0 inset;
+}
+
+entry {
+	padding: 0px 10px;
+	background-color: rgba(255, 255, 255, 0.75)
+}
+
+grid > button {
+	background-image: none;
+	border: none;
+	box-shadow: none;
+	color: black;
+	text-shadow: none;
+	padding: 0px 0px;
+	margin: 20px 0px;
+	min-width: 150px;
+	min-height: 50px;
+}
+
+/*box.vertical {
+	padding: 0px 10px
+}*/
+
+grid {
+	padding: 0px 20px;
+}
+
+/*GtkStackSwitcher*/
+
+stackswitcher {
+	padding: 10px;
+	padding-top: 0px;
+}
+
+stackswitcher > button {
+	background-image: none;
+	background-color: transparent;
+	border: rgba(0, 0, 0, 0.5) solid 1px;
+	border-radius: 0px;
+	border-left: none;
+	border-right: none;
+	min-width: 20px;
+	box-shadow: none;
+}
+
+stackswitcher > button:first-child {
+	border-left: rgba(0, 0, 0, 0.5) solid 1px;
+	border-radius: 6px 0px 0px 6px;
+}
+
+stackswitcher > button:last-child {
+	border-right: rgba(0, 0, 0, 0.5) solid 1px;
+	border-radius: 0px 6px 6px 0px;
+}
+
+stackswitcher > button > label {
+	color: black;
+}

@@ -1,0 +1,7 @@
+yunlauncherはPythonで作ったアプリケーションランチャーです
+ソースコードガバガバだけどゆるして
+
+依存関係(Dependencies)
+・GTK3
+・Python3
+・PyGObject
